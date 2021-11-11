@@ -25,8 +25,9 @@ groupID int,
 foreign key (studentsID) references students(studentsID),
 foreign key (groupID) references lessons(groupID)
 );
-insert into students (first_name, last_name) values('', '');
-insert into groups_ (number_group) values('');
+insert into students (first_name, last_name) values('Александров', 'Сергей');
+insert into groups_ (number_group) values
+('21ДАБ1'), ('21ДАБ2'), ('21ДАЗ1'), ('21ДАЗ2'), ('21ДАЗ3'), ('21ДАИ1'), ('21ДАИ2'), ('21ДАП1'), ('21ДАЭ1');
 insert into day_lessons (day_name) values('');
 insert into lessons (day_ID, groupID, lessons) values();
 insert into groups_students(studentsID, groupID) values();
