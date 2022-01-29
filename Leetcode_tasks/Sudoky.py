@@ -16,7 +16,7 @@ def solveSudoku(board):
                 # create current block 3x3 where there is a current cell
                 mini_table = sum([[board[row][col] for col in range(col//3*3, col//3*3+3)] for row in range(row//3*3, row//3*3+3)], [])
                 # create list from elements of the column where there is a current cell
-                column = list(list(zip(*board))[col])
+                column = [board[row][col] for row in range(9)]
                 # list from elements of the row where there is a current cell is the current index of the board
                 # Run to each elements of variable 'short_list'
                 for number in short_list:
