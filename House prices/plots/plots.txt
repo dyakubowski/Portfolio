@@ -1,0 +1,3 @@
+This folder contains all plots, heatmaps, histograms of distribution and pairplots to decide this task. 
+These plots contribute to evaluate importance of each parameter, dependence of sale price on it, 
+distribution of prices by values and find method to normalize distribution and fit model for decision
